@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // Set up Telegram webhook
-bot.setWebHook(`https://your-vercel-domain.vercel.app/bot${token}`);
+bot.setWebHook(`https://babar-start-bot-xbrq.vercel.app/bot${token}`);
 
 // Listen for Telegram updates
 app.post(`/bot${token}`, (req, res) => {

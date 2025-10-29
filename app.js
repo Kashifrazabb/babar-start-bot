@@ -5,5 +5,5 @@ const token = process.env.TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
-  bot.sendMessage(msg.chat.id, '');
+  bot.sendMessage(msg.chat.id, 'HELLO GANDU');
 });
